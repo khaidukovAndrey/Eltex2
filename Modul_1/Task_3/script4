@@ -1,0 +1,7 @@
+#!/bin/bash
+
+nameOfProc=$1
+stOfTimeInt=$2
+endOfTimeInt=$3
+
+grep "$nameOfProc\[" /var/log/syslog | grep -E "$stOfTimeInt|$endOfTimeInt"

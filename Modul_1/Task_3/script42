@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source script42.conf
+sttime=($stOfTimeInt)
+endtime=($endOfTimeInt)
+grep "$nameOfProc\[" /var/log/syslog | grep -E "$sttime|$endtime"
