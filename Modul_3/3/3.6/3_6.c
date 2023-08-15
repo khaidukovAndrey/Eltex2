@@ -85,7 +85,6 @@ int main()
             f = fopen("f.txt", "ab+");
             fprintf(f, "%d ", t);
             fclose(f);
-            sleep(1);
             kill(pid, SIGUSR2);
         }
         close(pipefd[0]);
