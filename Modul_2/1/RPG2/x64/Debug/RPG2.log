@@ -1,0 +1,19 @@
+﻿  Fight.c
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(59,19): warning C4477: "fscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "char *"
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(59,19): message : рекомендуется использовать "%hhd" в строке форматирования
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(89,10): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(217,21): warning C4477: "scanf_s": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "int *"
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(217,21): message : этот аргумент используется описателем преобразования
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(357,36): warning C4474: "scanf_s" : для строки формата передано слишком много аргументов
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(357,36): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 2
+C:\Users\Andrey\source\repos\RPG2\RPG2\Fight.c(5,10): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Andrey\source\repos\RPG2\RPG2\Fight.c(187,66): warning C4133: =: несовместимые типы - из "Weapon *" в "Spell *"
+  Source.c
+C:\Users\Andrey\source\repos\RPG2\RPG2\Source.c(10,4): warning C4013: ReadLocations: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Andrey\source\repos\RPG2\RPG2\Source.c(11,4): warning C4013: ReadEnemyLevelDistribution: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Andrey\source\repos\RPG2\RPG2\Source.c(17,4): warning C4013: StartingLocation: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Andrey\source\repos\RPG2\RPG2\Source.c(22,7): warning C4013: GenerateLocation: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Andrey\source\repos\RPG2\RPG2\Source.c(23,15): warning C4013: FightControl: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
+C:\Users\Andrey\source\repos\RPG2\RPG2\LocationGeneration.h(161): warning C4716: GenerateLocation: должна возвращать значение
+  RPG2.vcxproj -> C:\Users\Andrey\source\repos\RPG2\x64\Debug\RPG2.exe

@@ -1,0 +1,5 @@
+﻿  Source.c
+D:\source\repos\Eltex3\Eltex3\List.h(206,7): warning C4033: "ListGetValue" должен возвращать значение
+D:\source\repos\Eltex3\Eltex3\List.h(281,10): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\source\repos\Eltex3\Eltex3\List.h(221): warning C4715: ListGetValue: значение возвращается не при всех путях выполнения
+  Eltex3.vcxproj -> D:\source\repos\Eltex3\x64\Debug\Eltex3.exe
